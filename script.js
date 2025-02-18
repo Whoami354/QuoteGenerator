@@ -1,12 +1,3 @@
-/*
-// Quotes from quotes.js
-function newQuote() {
-    const quoteText = document.getElementById('quote');
-    const author = document.getElementById('author');
-    const quote = localQuotes[Math.floor(Math.random() * localQuotes.length)];
-    quoteText.textContent = quote.text;
-    author.textContent = quote.author;
-}*/
 const quoteContainer = document.getElementById('quote-container');
 const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('author');
